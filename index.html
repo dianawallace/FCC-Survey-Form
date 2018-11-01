@@ -13,7 +13,7 @@
       <h1 id="title">Survey Form</h1>
       <div id="outside-form">
         <p id="description">Drawing and Painting Lessons</p>
-        <form id="survey-form"></form>
+        <form id="survey-form">
           <div class="row">
             <div class="labels">
               <label id="name-label" class="display-block" for="name"><span class="required">*</span>Name:</span></label>
@@ -52,45 +52,47 @@
               </select>
             </div>
           </div>
-        <div class="row">
-          <div class="labels">
-            <ul style="list-style: none;">
-              <li><input type="radio" name="radio-buttons" value="female" class="radio">
-              <label for="female" name="gender">Female</label></li>
-              <li><input type="radio" name="radio-buttons" value="male" class="radio">
-              <label for="male" name="gender">Male</label></li>
-              <li><input type="radio" name="radio-buttons" value="Other" class="radio">
-              <label for="other" name="gender">Other</label></li>
-            </ul>  
+          <div class="row">
+            <div class="labels">
+              <ul style="list-style: none;">
+                <li><input type="radio" name="radio-buttons" value="female" class="radio">
+                <label for="female" name="gender">Female</label></li>
+                <li><input type="radio" name="radio-buttons" value="male" class="radio">
+                <label for="male" name="gender">Male</label></li>
+                <li><input type="radio" name="radio-buttons" value="Other" class="radio">
+                <label for="other" name="gender">Other</label></li>
+              </ul>  
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="labels">
-            <label for="question">* What would you like to learn how to draw or paint better?</label>
+          <div class="row">
+            <div class="labels">
+              <label for="question">* What would you like to learn how to draw or paint better?</label>
+            </div>
+            <div class="tab">
+              <ul style="list-style: none;">
+                <li><input type="checkbox" name="life-drawing" value="1">
+                  <label for="life-drawing">Life Drawing</label></li>
+                <li><input type="checkbox" name="Landscapes" value="2">
+                  <label for="landscapes">Landscapes</label></li>
+                <li><input type="checkbox" name="still-life" value="3">
+                  <label for="still-life">Still Life</label></li>
+                <li><input type="checkbox" name="animals" value="4">
+                  <label for="animals">Animals</label></li>
+                <li><input type="checkbox" name="buildings" value="5">
+                  <label for="buildings">Buildings</label></li>
+              </ul>
+            </div>
           </div>
-          <div class="tab">
-            <ul style="list-style: none;">
-              <li><input type="checkbox" name="life-drawing" value="1">
-                <label for="life-drawing">Life Drawing</label></li>
-              <li><input type="checkbox" name="Landscapes" value="2">
-                <label for="landscapes">Landscapes</label></li>
-              <li><input type="checkbox" name="still-life" value="3">
-                <label for="still-life">Still Life</label></li>
-              <li><input type="checkbox" name="animals" value="4">
-                <label for="animals">Animals</label></li>
-              <li><input type="checkbox" name="buildings" value="5">
-                <label for="buildings">Buildings</label></li>
-            </ul>
+          <div class="row">
+            <div class="labels">
+              <label for="comments">Please enter any comments below!</label>
+            </div>
+            <div class="tab">
+              <textarea id="comments" name="comments" placeholder="Enter any comments or suggestions"></textarea>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="labels">
-            <label for="comments">Please enter any comments below!</label>
-          </div>
-          <div class="tab">
-            <textarea id="comments" name="comments" placeholder="Enter any comments or suggestions"></textarea>
-          </div>
-        </div>
+            <button id="submit" class="submit" type"submit">Submit</button>
+        </form>
       </div>
     </div>  
   </body>
