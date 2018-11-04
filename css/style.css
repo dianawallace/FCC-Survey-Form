@@ -9,3 +9,18 @@ html, body {
 h1 {
     font-size: 40px;
 }
+
+#outside-form {
+    background-color: white;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    margin-top: 15px;
+    width: 40%;
+    padding: 6px;
+}
