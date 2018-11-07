@@ -39,3 +39,14 @@ h1 {
     margin: 3px;
     margin-top: -3px;
 }
+
+.radio, .checkbox {
+    position: relative;
+    left: 30px;
+    top: 15px;
+    margin-top: -5px;
+    display: block;
+}
+
+
+
