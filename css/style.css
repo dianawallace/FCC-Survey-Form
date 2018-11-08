@@ -48,5 +48,11 @@ h1 {
     display: block;
 }
 
-
+#comments {
+    height: 50px;
+    width: 220px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
 
