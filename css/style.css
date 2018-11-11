@@ -29,7 +29,7 @@ h1 {
     display: inline-block;
     text-align: left;
     width: 55%;
-    vertical align: middle;
+    vertical-align: middle;
 }
 
 #dropdown {
@@ -42,7 +42,7 @@ h1 {
 
 .radio, .checkbox {
     position: relative;
-    left: 30px;
+    left: -30px;
     top: 15px;
     margin-top: -5px;
     display: block;
