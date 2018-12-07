@@ -5,6 +5,14 @@ FreeCodeCamp: Responsive Web Design Projects - Build a Survey Form
 This is the second of the Responsive Web Design Projects in Free Code Camp. The objective 
 was to build a survey form that meets Free Code Camp's user stories requirements.
 
+
+For this project I used HTML5 and plain CSS3.
+
+
+You can find the list of requirements below as well as further information on this project [here](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form).
+You can view my completed project on github [here](https://dianawallace.github.io/FCC-Survey-Form/) and codepen [here](https://codepen.io/dianawallacedeveloper/pen/gBbrXR).
+
+
 User Story #1: I can see a title with id="title" in H1 sized text
 
 User Story #2: I can see a short explanation with id="description" in P sized text.
@@ -37,4 +45,3 @@ User Story #15: Inside the form element, I am presented with a textarea at the e
 
 User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
 
-For this project I only used HTML and plain CSS.
